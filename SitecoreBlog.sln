@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{A3FCF682-D7A8-4CD4-9CB8-F7F84629D16D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{C8B22060-C8F3-49DA-8BAA-9E5E585855DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{1DB8FA25-DA06-4BC5-9F90-9FC543DD98BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreBlog.Feature.MainSearch", "src\Feature\MainSearch\SitecoreBlog.Feature.MainSearch.csproj", "{1CD50ED1-7144-41F9-9CD4-DFC1CEABCA07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{6BD8E0C9-9750-447D-B2A4-1ACAB436AA05}"
+	ProjectSection(SolutionItems) = preProject
+		gulp-config.js = gulp-config.js
+		gulpfile.js = gulpfile.js
+		package.json = package.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CD50ED1-7144-41F9-9CD4-DFC1CEABCA07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CD50ED1-7144-41F9-9CD4-DFC1CEABCA07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CD50ED1-7144-41F9-9CD4-DFC1CEABCA07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CD50ED1-7144-41F9-9CD4-DFC1CEABCA07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1CD50ED1-7144-41F9-9CD4-DFC1CEABCA07} = {A3FCF682-D7A8-4CD4-9CB8-F7F84629D16D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CEDBDB9-587A-4564-932A-D12352540127}
+	EndGlobalSection
+EndGlobal

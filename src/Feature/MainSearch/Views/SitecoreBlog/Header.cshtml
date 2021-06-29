@@ -1,0 +1,12 @@
+@{
+    var item = Sitecore.Context.Database.GetItem("{F0EEF137-A59F-4EF3-9A2E-53E136A4EA08}");
+}
+
+<div>
+    <h1>
+        @Html.Sitecore().Field("HeaderTitle", item)
+
+    </h1>
+   <p> @Html.Sitecore().Field("SubTitle", item) </p >
+
+</div>

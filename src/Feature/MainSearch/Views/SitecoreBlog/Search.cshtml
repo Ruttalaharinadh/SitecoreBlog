@@ -1,0 +1,35 @@
+﻿@model Sitecore.Data.Items.Item
+
+<div>
+
+
+
+    <main role="main" class="container blog-posts">
+
+
+        <div class="row">
+
+
+
+
+            <div class="blog-post-card card col-lg-4 col-md-6">
+              
+                    @Html.Sitecore().Field("ArticleSmallImage", Model, new { @class = "card-img-top" })
+                    <div class="card-body bg-light">
+                        <strong class="d-inline-block mb-2 text-success">@Html.Sitecore().Field("BodyTitle", Model)</strong>
+                        <h3 class="card-title"> @Html.Sitecore().Field("ShortDescription", Model)</h3>
+                        <div class="mb-1 text-muted">@Html.Sitecore().Field("PostedDate", Model)</div>
+                        <p>@Html.Sitecore().Field("LongDescription", Model)</p>
+
+                        @Html.Sitecore().Field("Tags", Model, new { @class = "btn btn-warning btn-block" })
+
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </main>
+
+    </div>
